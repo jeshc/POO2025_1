@@ -13,7 +13,12 @@ public class Main {
         System.out.println("Tam: " +tele1.getTamanio());
         System.out.println("Vol: " +tele1.getVolumen());
         System.out.println(tele1.toString());
-        tele1.modificarVolumen(200);
+        tele1.modificarVolumen(20);
+        System.out.println(tele1.toString());
+        tele1.modificarVolumen(10, false);
+        System.out.println(tele1.toString());
+        tele1.modificarVolumen(10.0);
+
         System.out.println(tele1.toString());
     }
 }
