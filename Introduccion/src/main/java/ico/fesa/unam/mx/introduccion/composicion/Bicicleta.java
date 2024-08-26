@@ -13,7 +13,8 @@ public class Bicicleta {
     public Bicicleta() {
     }
 
-    public Bicicleta(String marca, String tamanio, String tipo, Rueda ruedaTrasera, Rueda ruedaDelantera, Manubrio volante, Asiento asiento) {
+    public Bicicleta(String marca, String tamanio, String tipo, Rueda ruedaTrasera,
+                     Rueda ruedaDelantera, Manubrio volante, Asiento asiento) {
         this.marca = marca;
         this.tamanio = tamanio;
         this.tipo = tipo;
