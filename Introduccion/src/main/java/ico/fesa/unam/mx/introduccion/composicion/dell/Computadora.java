@@ -64,7 +64,7 @@ public class Computadora {
                 "marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
                 ", mouse=" + mouse +
-                ", procesador=" + procesador +
+                ", procesador=" + procesador  +
                 ", monitor=" + monitor +
                 '}';
     }

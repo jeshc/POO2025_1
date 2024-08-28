@@ -53,7 +53,7 @@ public class Procesador {
         return "Procesador{" +
                 "marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
-                ", frecuencia=" + frecuencia +
+                ", frecuencia=" + frecuencia +" GHz. "+
                 ", generacion=" + generacion +
                 '}';
     }
