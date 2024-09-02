@@ -15,8 +15,8 @@ public class ProbarHerencia {
         dog1.dormir(25);
         System.out.println(dog1);
 
-        MiVentana miVentana = new MiVentana("Hola mundo Swing");
-        miVentana.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        //MiVentana miVentana = new MiVentana("Hola mundo Swing");
+        //miVentana.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
     }
 }

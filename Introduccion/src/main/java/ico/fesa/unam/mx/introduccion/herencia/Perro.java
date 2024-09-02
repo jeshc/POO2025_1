@@ -9,8 +9,11 @@ public class Perro extends Animal {
     public Perro() {
     }
 
-    public Perro(int edad, int tamanio, String especie, String habitat, boolean conPelo, boolean acuatico, String raza, String color) {
+    public Perro(int edad, int tamanio, String especie,
+                 String habitat, boolean conPelo, boolean acuatico,
+                 String raza, String color) {
         super(edad, tamanio, especie, habitat, conPelo, acuatico);
+        //new Animal(edad, tamanio, especie, habitat, conPelo, acuatico);
         this.raza = raza;
         this.color = color;
     }
@@ -64,8 +67,12 @@ public class Perro extends Animal {
     public void jugar(){
         System.out.println("Jugando...");
     }
+
     @Override
-    public void moverse(int metros){
-        System.out.println("EL PERRO SE MUEVE MOVIENDO LA COLA POR " + metros + " Metros..");
+    public void moverse(int m){
+        System.out.println("EL PERRO SE MUEVE MOVIENDO LA " +
+                "COLA POR " + m + " Metros..");
     }
+
+
 }
