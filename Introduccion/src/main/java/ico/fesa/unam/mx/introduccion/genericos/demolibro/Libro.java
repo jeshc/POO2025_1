@@ -62,6 +62,10 @@ public class Libro {
         this.autores = autores;
     }
 
+    public void addAutor(Autor autor){
+        this.autores.add(autor);
+    }
+
     @Override
     public String toString() {
         return "Libro{" +
